@@ -231,9 +231,9 @@ if ($_POST) {
   $message = $message_start . $message_content . $message_end;
 
   $emailgo= new TEmail;
-  $emailgo->from_email= 'info@rose34.ru';
-  $emailgo->from_name= 'Робот Иван';
-  $emailgo->to_email= '6aa999@gmail.com';
+  $emailgo->from_email= '';
+  $emailgo->from_name= '';
+  $emailgo->to_email= '';
   //$emailgo->to_name= '';
   $emailgo->subject= $form_title;
   $emailgo->body= $message;
